@@ -1,0 +1,101 @@
+*{
+
+box-sizing: border-box;
+}
+
+body{
+
+background-color: #f5f6ff;
+
+}
+.container{
+
+
+padding: 10px;
+
+max-width: 700px;
+margin: 5px auto;
+
+}
+.btnn{
+
+  border: none;
+  padding: 7px,15px;
+font-size: 18px;
+border-radius: 5px;
+background-color: #194219;
+cursor: pointer;
+color:white;
+
+}
+.btn-add{
+
+  background-color: #194219;
+
+  color:white;
+  
+
+}
+
+.addcontainer{
+
+position: absolute;
+background-color: rgba(0,0,0,0.2);
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.addcontainer form{
+
+width :400px;
+background-color: white;
+display: flex;
+flex-direction: column;
+padding: 50px 40px;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+border-radius: 5px;
+
+
+}
+
+.addcontainer form label{
+
+  font-size: 18px;
+}
+.addcontainer form input{
+font-size: 18px;
+padding: 5px;
+margin-top: 5px;
+margin-bottom: 10px;
+
+
+}
+.addcontainer form button{
+background-color: royalblue;
+color:white;
+font-weight: 550;
+
+}
+.addcontainer form .close-btn{
+
+margin-left: auto;
+font-size: 20px;
+width: 20px;
+height: 20px;
+
+justify-content: center;
+display: flex;
+align-items: center;
+border-radius: 20px;
+border:1px solid black;
+cursor: pointer;
+
+
+
+}
